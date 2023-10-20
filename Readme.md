@@ -10,9 +10,6 @@
 4) The user will receive a payment link on his email address. (You may provide a dummy link of upi payment)
 5) After successful payment he will be informed about the booking status whether it is booked or failed.
 
-## SOLUTION
-
-
 ## Tech-Stack
 
 #### Client : ReactJs
@@ -57,13 +54,3 @@ https://github.com/nodemailer/nodemailer
 ```
 https://dashboard.stripe.com/test/payments
 ```
-
-
-
-## FUTURE ASPECT
-
-### What are the future thoughts on the idea, how do you plan to upgrade this idea…..
-
-1) Adding More Features to the application, For Example: Flight ticket using voice commands, Tour package bookings and Personalised tour facility.
-2) Improving the User Interface, more similar to that of Udchalo.
-3) By using natural language processing and clear feedback, we can ensure that users are able to book a hotel ticket quickly and easily, without having to navigate a complex user interface.
