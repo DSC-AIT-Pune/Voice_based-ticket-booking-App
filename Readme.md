@@ -22,12 +22,18 @@
 
 1) Fork Repository
 2) Clone by running following command
-```git clone <-https link->```
-3) Install Dependencies in folders using following command(in Windows)
-```npm install```
-4) Run following command in Client folder
-```npm start```
-5) You are ready to resolve issues now :) 
+```
+git clone <-https link->
+```
+4) Install Dependencies inside a)Client-side and b)server-side folder using following command(in Windows)
+```
+npm install
+```
+6) Run following command in Client folder
+```
+npm start
+```
+8) You are ready to resolve issues now :) 
 ## APIs and Packages 
 
 1) react-speech-recognition
