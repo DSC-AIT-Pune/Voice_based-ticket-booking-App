@@ -1,0 +1,50 @@
+.payment-page{
+    /* background-color: #655DBB; */
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.paymentApp{
+    width: 35%;
+    /* background-color: blue; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    background-color: rgb(219, 219, 219);
+    height: 240px;
+    padding-top: 50px;
+}
+.paymentviastripe{
+    width: 35%;
+    /* background-color: pink; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    background-color: rgb(219, 219, 219);
+}
+.paytitle{
+    background-color: transparent;
+}

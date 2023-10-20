@@ -1,0 +1,68 @@
+.input-form {
+    /* width: 70%; */
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 70%; */
+    margin-top: 100px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 90%; */
+    height: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.416);
+}
+
+.formContainer input {
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.formContainer label {
+    font-weight: bold;
+    color: rgb(110, 102, 102);
+}
+
+.formContainer button {
+    margin-top: 15px;
+    height: 40px;
+    border: none;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    color: white;
+}
+
+.formContainer button:hover {
+    cursor: pointer;
+    background-color: dodgerblue;
+}
+
+span2 {
+    color: red;
+}
+
+.css-dmmspl-MuiFormGroup-root {
+    align-content: space-around;
+}
+
+.form-title{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}

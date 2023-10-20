@@ -1,0 +1,60 @@
+.purple{
+    color: white;
+
+    font-size: 128px;
+    font-weight: 100;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.landing-header{
+
+    max-width: 720px;
+
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Courgette', cursive;
+    color: white;
+}
+
+.landing-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 10%;
+    
+}
+
+.landing-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.landing-container{
+    width: 100%;
+}
+
+.landing-btn{
+margin-top: 50px;
+}
+
+.landing-image{
+    max-width: 720px;
+    width: 100%;
+    height: auto;
+}
+
+.landing-btn{
+    max-width: 720px;
+    width: 100%;
+    margin-left: 10%;
+
+    margin-top: 0px;
+    font-size: 20px;
+    background-color:  #1408955e;
+}
+
+.landing-btn:hover{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); 
+}

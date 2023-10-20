@@ -1,0 +1,25 @@
+.display-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -100px;
+    height: 100vh;
+
+    background: url(https://assets7.lottiefiles.com/private_files/lf30_dy2xdidy.json);
+}
+.sampleCommands{
+    width: 50%;
+    /* background-color: blue; */
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-inputForm{
+    width: 50%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

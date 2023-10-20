@@ -1,0 +1,66 @@
+a { 
+    color: #000;
+    text-decoration: none;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex-basis: calc(33.3% - 10px);
+    margin-bottom: 20px;
+}
+
+.hotel-card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+}
+
+.hotel-card-first {
+    height: 200px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid black;
+}
+
+.hotel-card-first img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.hotel-card-second,
+.hostel-card-third {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.hotel-card-third {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e0e0e0;
+}
+
+.hotel-card-third div:first-child {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.hotel-card-third div:last-child {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #e91e63;
+}
